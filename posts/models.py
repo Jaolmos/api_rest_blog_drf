@@ -16,3 +16,6 @@ class Post(models.Model):
     # Relación uno a muchos con category como ForeignKey. Si se elimina una categoria, el post no se elimina.
     category = models.ForeignKey(Category, on_delete=SET_NULL, null=True)
 
+    def __str__(self):
+        return self.title
+

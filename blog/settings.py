@@ -41,11 +41,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'django_filters',
-
     # local apps
     'users',
     'categories',
     'posts',
+    'comments',
 ]
 
 MIDDLEWARE = [
