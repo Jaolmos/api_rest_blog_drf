@@ -2,6 +2,11 @@
 Api Rest de una aplicación blog realizada con Django Rest Framework. 
 Versión de python utilizada 3.10.4
 
+- Sistema Api Rest CRUD de un blog con 4 tablas
+- Administración de usuarios y permisos
+- Sistema de autenticación de usuarios con jwt (json web token)
+- Documentación API con Swagger
+
 
 Requirements:
 asgiref==3.7.2
